@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #header {
+            padding-right: 24px;
+            padding-left: 24px;
+            height: 50px;
+
+
+
+        }
+
+        li {
+            list-style: none;
+            float: left;
+            margin: 19px 31px 0 0;
+
+            font-size: 13px;
+
+
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+            font-family: "PingFang SC", Arial, "Microsoft YaHei", sans-serif;
+
+        }
+
+        a:hover {
+            color: rgb(78, 113, 242)
+        }
+
+        #dl {
+            float: right;
+            margin: 15px 0 0 32px;
+            border: solid;
+            border-radius: 6px 6px 6px 6px;
+            height: 24px;
+            width: 48px;
+            line-height: 24px;
+            background-color: rgb(78, 113, 242);
+            text-decoration: none;
+            text-align: center;
+            color: white;
+        }
+
+        #sz {
+            float: right;
+            margin: 19px 0 0 32px;
+        }
+
+        #header .head {
+            width: 1005px;
+            height: 50px;
+
+            margin: auto
+        }
+
+        #tupian {
+            height: 140px;
+            /* background-color: blue; */
+            text-align: center;
+        }
+
+        #tp {
+            position: relative;
+            top: -100px;
+
+
+        }
+
+        img {
+            margin-top: 100px;
+        }
+
+        #sousuo {
+            height: 60px;
+            /* background-color: blueviolet; */
+            text-align: center;
+        }
+
+        #sr {
+            width: 521px;
+            height: 44px;
+
+            border-radius: 10px 0 0 10px;
+            border-color: #c4c7ce;
+        }
+        #sr:hover{
+            border-color: #a7aab5;
+  
+        }
+        
+       
+        
+
+        #bdyx {
+            text-align: center;
+            width: 108px;
+            height: 47px;
+            border: rgb(78, 113, 242);
+            border-radius: 0 10px 10px 0;
+            background-color: rgb(78, 113, 242);
+            color: white;
+            font-size: 17px;
+            font-family: "PingFang SC", Arial, "Microsoft YaHei", sans-serif;
+        }
+
+        #resoubang {
+            height: 295px;
+            /* background-color: rgb(194, 196, 56); */
+        }
+
+        #footer {
+            height: 100px;
+            /* background-color: rgb(135, 165, 179); */
+            position: fixed;
+            margin: 0px 0px 0px 24px;
+
+        }
+
+        #DD {
+            margin: 0px 20px 0px 0px;
+            font-size: 12px;
+            color: rgb(196, 199, 206);
+        }
+
+        #DD:hover {
+            color: black;
+        }
+
+        #zuihou {
+            position: absolute;
+            margin: 200px 0px 0px 0px;
+        }
+
+        #bb {
+            position: relative;
+            left: 150px;
+            font-size: 12px;
+            color: rgb(196, 199, 206);
+            margin: 0px 20px 0px 0px;
+        }
+
+        #BB1:hover {
+            color: black;
+        }
+
+        #BB {
+            position: relative;
+            left: 150px;
+            font-size: 12px;
+            color: rgb(196, 199, 206);
+            margin: 0px 20px 0px 0px ;
+        }
+
+        #BB1 {
+            position: relative;
+            left: 150px;
+            font-size: 12px;
+            color: rgb(196, 199, 206);
+            margin: 0px 20px 0px 0px ;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <ul>
+            <li> <a href="http://news.baidu.com/">新闻</a> </li>
+            <li> <a href="https://www.hao123.com/">hao123</a> </li>
+            <li> <a href="https://map.baidu.com/@12573153.72,3258106.27,12z">地图</a> </li>
+            <li> <a href="https://haokan.baidu.com/?sfrom=baidu-top">视频</a> </li>
+            <li> <a href="https://tieba.baidu.com/index.html">贴吧</a> </li>
+            <li> <a href="https://xueshu.baidu.com/"> 学术</a></li>
+            <li> <a href="https://www.baidu.com/more/">更多</a> </li>
+            <li id="dl">登录</li>
+            <li id="sz">设置</li>
+
+        </ul>
+
+
+
+
+
+        <div class="head"></div>
+    </div>
+    <div id=tupian>
+        <img src="baidu3.png" alt="" id="tp">
+    </div>
+    <div id="sousuo">
+        <input id="sr" type="text" name="username"><input id="bdyx" type="text" value="百度一下">
+    </div>
+    <div id="resoubang"></div>
+    <div id="footer">
+
+        <a href="https://www.baidu.com/cache/setindex/index.html" id="DD">设为首页</a>
+        <a href="https://home.baidu.com/" id="DD">关于百度</a>
+        <a href="https://ir.baidu.com/" id="DD"> About Baidu</a>
+        <a href="https://isite.baidu.com/site/e.baidu.com/d38e8023-2131-4904-adf7-a8d1108f51ef?refer=888"
+            id="DD">百度营销</a>
+        <a href="https://www.baidu.com/duty/" id="DD">使用百度前必读</a>
+        <a href="https://passport.baidu.com/v2/?login&tpl=service_feedback&u=http%3A%2F%2Fhelp.baidu.com%2Fnewadd%3Fprod_id%3D1%26category%3D4"
+            id="DD">意见反馈</a>
+        <a href="https://help.baidu.com/" id="DD">帮助中心</a>
+        <a href="" id="bb">©2020 Baidu</a>
+        <a href="" id="BB">(京)-经营性-2017-0020</a>
+        <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000001"
+            id="BB1">京公网安备11000002000001号</a>
+        <a href="" id="BB">京ICP证030173号</a>
+    </div>
+</body>
+
+</html>
