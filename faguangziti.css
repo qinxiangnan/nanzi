@@ -12,10 +12,11 @@ display: flex;
 justify-content: center;
 align-items: center;
 /* background: #000; */
-background-image: url(fense3.jpg);
+background-image: url(fense4.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 color:white;
+    font-size:3em
 }
 span{
     font-family: fira code;
