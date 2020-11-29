@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-background-image: url(fense3.jpg);
+background-image: url(fense4.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 }
@@ -19,7 +19,7 @@ color:white;
 }
 span{
     font-family: fira code;
-    font-size: 4em;
+    font-size: 3em;
     color: #fff;
     filter: blur(2px);
     animation: animate 5s linear infinite;
